@@ -1,0 +1,6 @@
+this code prints all the factors (except 1 and itself) of the number, which in this case is 12
+this code will print:
+2
+3
+4
+6
