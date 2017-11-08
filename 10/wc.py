@@ -6,7 +6,6 @@ def rem_non_alpha(w):
 
 def sort_words(word_list):
     d = collections.defaultdict(lambda: [])
-    ctr = 0
     for w1, w2 in zip(word_list, word_list[1:]):
         d[w1].append(w2)
     return d
